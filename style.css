@@ -731,15 +731,16 @@ textarea::placeholder{
         font-size: 3.4rem;
         background-color: var(--clr-black);
         width: 100%;
-        min-height: 100%;
-        padding: 9rem;       
+        min-height: 140%;
+        padding-top: 8rem;
+        padding-bottom: 30rem;     
     } 
     .logo{
         position: absolute;
         z-index: -1;
     }
     .nav-list-item{
-        padding: 3.5rem 0;
+        padding: 3rem 0;
     }
     .iconshow{
         display: flex;  
