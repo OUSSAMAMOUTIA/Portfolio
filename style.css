@@ -912,4 +912,14 @@ textarea::placeholder{
     .service div:hover{  
         transform: scale(1.05);
     }
+    .project div{
+        max-width: calc(85% - 1rem);
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (max-width:380px) {
+    .project div{
+        max-width: calc(100% - 1rem);
+        margin-bottom: 2rem;
+    }
 }
