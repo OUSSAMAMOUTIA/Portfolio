@@ -719,9 +719,6 @@ textarea::placeholder{
     }
 }
 @media screen and (max-width:780px) {
-    body.hhhh{
-        overflow: hidden;
-    }
    .navbar{
        align-items: flex-start;
        justify-content: flex-start;
