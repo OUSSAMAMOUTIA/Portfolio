@@ -732,8 +732,7 @@ textarea::placeholder{
         background-color: var(--clr-black);
         width: 100%;
         min-height: 100%;
-        padding: 9rem;
-        
+        padding: 9rem;       
     } 
     .logo{
         position: absolute;
@@ -754,23 +753,6 @@ textarea::placeholder{
         z-index: 1;
         right: 2rem;      
       }
-      .cursor{
-        position: fixed;
-        width: 2rem;
-        z-index: 1;
-        height: 2rem;
-        border-radius: 50%;
-        background: #fff;
-        transition: 0.1s;
-        transform: translate(-50%,-50%);
-        pointer-events: none;
-        mix-blend-mode: difference;
-    }
-    .nav-list:hover ~ .cursor
-    {       
-        display: block;
-        transform: scale(4);
-    }
 	   .services{
         padding: 0 3rem;
     }
